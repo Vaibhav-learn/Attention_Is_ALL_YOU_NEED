@@ -3,3 +3,7 @@ datasets
 matplotlib
 sentencepiece
 numpy
+nltk
+scikit-learn
+nltk
+scikit-learn

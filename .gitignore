@@ -1,0 +1,115 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv
+venv/
+ENV/
+env/
+.env
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Testing & Coverage
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# ML Training artifacts
+*.pth
+*.pt
+*.pkl
+transformer_model.pth
+src_vocab.pkl
+tgt_vocab.pkl
+
+# Data and Datasets
+data/
+datasets/
+*.csv
+*.json
+*.parquet
+*.hdf5
+*.h5
+
+# Logs and outputs
+logs/
+*.log
+output/
+results/
+*.txt.log
+
+# Matplotlib
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Project specific
+.cache/
+*.tmp
+temp/
+temporary/
+checkpoint/
+wandb/
+
+# Misc
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+*.bak
+*.backup
+*.orig
