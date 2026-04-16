@@ -1,22 +1,18 @@
 class Config:
-    # Model params
-    d_model = 512
-    num_heads = 8
-    num_layers = 6
-    d_ff = 2048
+    d_model = 256
+    num_heads = 4
+    num_layers = 3
+    d_ff = 1024
     dropout = 0.1
 
-    # Vocab
-    src_vocab_size = 1000
-    tgt_vocab_size = 1000
+    src_vocab_size = 15000
+    tgt_vocab_size = 15000
 
-    # Training
-    batch_size = 32
+    batch_size = 8  
     lr = 1e-4
-    epochs = 20
+    epochs = 50
 
-    # Special tokens
-    max_len = 0
+    max_len = 512
     pad_idx = 0
 
 config = Config()
