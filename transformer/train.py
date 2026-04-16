@@ -305,7 +305,7 @@ def evaluate():
         f.write(f"BLEU: {bleu}\nAccuracy: {acc}\nF1: {f1}")
     
     print("\n" + "="*60)
-    print("\ud83d� FINAL EVALUATION METRICS:")
+    print("\n FINAL EVALUATION METRICS:")
     print(f"BLEU Score:    {bleu:.4f} (↑ Target: >20)")
     print(f"Accuracy:      {acc:.4f}")
     print(f"F1 Score:      {f1:.4f}")
